@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'QQGroupCrawler.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'qqgroup',
+        'NAME': 'dbqqgroup',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
